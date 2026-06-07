@@ -55,8 +55,7 @@ class GetTimeSeriesHandler(QueryHandler[GetTimeSeriesQuery]):
             merged_vals = {**r["values_double"], **r["values_int"], **r["values_text"]}
             all_attrs.update(merged_vals.keys())
             response_records.append({
-                "businessDate": r["business_date"].isoformat(),
-                "values": merged_vals,
+                "businessDate": str(r["business_date"]),                "values": merged_vals,
             })
 
         result: dict = {
