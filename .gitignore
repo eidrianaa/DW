@@ -1,5 +1,30 @@
-.env
-.DS_Store
+# Dependencies
 node_modules/
-__pycache__/
-.docker/
+_pycache_/
+*.pyc
+
+# Build outputs
+.next/
+out/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+venv/
+.venv/
