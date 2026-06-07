@@ -1,7 +1,7 @@
 Acme Financial Data Warehouse
 Această configurație rulează întregul ecosistem Big Data (FastAPI, Next.js, Cassandra și Apache Spark) complet izolat, folosind pachete gata configurate. Nu trebuie să instalezi Java sau baze de date pe Mac-ul tău.
+
 🛠️ Cerințe minime
-Ai nevoie doar de Docker Desktop instalat și pornit pe Mac-ul tău.
 Cum se instalează și pornește aplicația
 Deschide terminalul direct în folderul principal al proiectului (acolo unde vezi folderele backend și frontend la un loc) și rulează:
 Pasul 1: Construiește și pornește containerele
